@@ -1,5 +1,5 @@
 import axios from "axios";
-const base_url="https://npmserver.onrender.com"
+const base_url="https://server-8ybk.onrender.com"
 
 export const addVideo=async(data)=>{
     return await axios.post(`${base_url}/videos`,data)

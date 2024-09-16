@@ -99,7 +99,7 @@ function AddVideo({response}) {
       <Form.Control type="text" placeholder="url" onChange={(e)=>{setVideo({...video,videoUrl:e.target.value})}} />
       </FloatingLabel>
 
-
+"
 
         </Modal.Body>
         <Modal.Footer>
